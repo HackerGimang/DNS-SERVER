@@ -40,7 +40,8 @@ def pilih():
         time.sleep(2)
 
 def login():
-    os.system('clear')                                                                                                                           print('\033[37;1mToken : https://bit.ly/3RWmdh3')
+    os.system('clear')
+    print('\033[37;1mToken : https://bit.ly/3RWmdh3')
     print('')
     time.sleep(1)
     token = input('\033[37;1m[\033[33;1m+\033[37;1m] \033[33;1mMasukan token :\033[32;1m ')
